@@ -14,4 +14,4 @@ worker_disable_rate_limits = True
 result_backend = 'amqp'
 result_expires = 30 * 60
 
-imports = ('tasks', 'webcrawler')
+imports = ('tasks', 'webcrawler', 'retry_task')
